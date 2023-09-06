@@ -23,25 +23,25 @@ knex
 
 ### Iniciando a aplicação:
 
-- no terminal clone esse projeto:
+- No terminal clone esse projeto:
 
 ```bash
 $ git clone 
 ```
 
-- acesse a pasta do arquivo:
+- Acesse a pasta do arquivo:
 
 ```bash
 $ cd foodexplorer
 ```
 
-- instale as dependências:
+- Instale as dependências:
 
 ```bash
 $ npm install
 ```
 
-- rode o servidor:
+- Rode o servidor:
 
 ```bash
 $ npm run dev
@@ -59,7 +59,7 @@ password: 1234
 mail: user@gmail.com</br>
 password: 123456
 
-## Back-end
+## Front-end
 
 Acesse o repositório por esse [link](https://github.com/Wenderlord/FoodExplorer-front-end)
 
