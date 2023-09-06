@@ -5,9 +5,7 @@ class CartItensController{
 async create(request, response){
         
     const {title,quantity, price, product_id} = request.body 
-    
     const user_id = request.user.id
-
 
     await knex("CartItens").insert({
         title,

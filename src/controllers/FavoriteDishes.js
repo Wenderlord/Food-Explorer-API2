@@ -4,9 +4,7 @@ class FavoriteDishesController{
     async create(request, response){
         
         const {id} = request.params 
-        
         const user_id = request.user.id
-
         const dish = await knex("products").where({id}).first()
 
         if(!dish){
